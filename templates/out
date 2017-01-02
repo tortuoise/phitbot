@@ -1,0 +1,29 @@
+{{define "body"}}
+<body>
+        <div>
+                {{if .Message}}
+                        Logged out
+                {{end}}
+                {{if .Again}}
+                        Please login
+                {{end}}
+        </div>
+        <div id="content" style="font-size:20px; height:300px">
+                <form id="login" name="login" action="/in" method="POST">
+                        <ul class="center">
+                                <div class="field">
+                                        <label>Name:</label>
+                                        <input type="text" value="" name="user" style="width=100px;">
+                                </div>
+                                <div class="field">
+                                        <label>Password:</label>
+                                        <input type="text" value="" name="password" style="width=100px;">
+                                </div>
+                                <div class="field">
+                                        <input type="submit" value="Create" class="button button-alt">
+                                </div>
+                        </ul>
+                </form>
+        </div>
+</body>
+{{end}}

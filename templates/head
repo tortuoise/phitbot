@@ -1,0 +1,10 @@
+{{define "head"}}
+<head>
+  <link href="../font_pt_sans_narrow.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/css/markup.css">
+  <title>
+        Phitbot
+  </title>
+  </script>
+</head>
+{{end}}

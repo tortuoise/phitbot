@@ -1,0 +1,11 @@
+{{define "body"}}
+<body>
+        <div id="content" style="font-size:20px; height:250px">
+
+                <p> {{.Message}} </p>
+
+
+        </div>
+
+</body>
+{{end}}
